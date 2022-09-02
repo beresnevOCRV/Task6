@@ -48,4 +48,5 @@ public class RepositoryStubService {
         userRepository.remove(id);
     }
 
+    public String getStatus() { return "It works"; }
 }
